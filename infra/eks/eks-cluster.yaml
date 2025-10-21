@@ -17,5 +17,4 @@ nodeGroups:
       purpose: worker
     iam:
       withAddonPolicies:
-        containerInsights: true   # ask eksctl to enable CW ContainerInsights support
-
+        cloudWatch: true  # enables permissions for logging/metrics
